@@ -1,0 +1,160 @@
+{
+  "role": [
+    {
+      "id": "1",
+      "status": "Admin"
+    },
+    {
+      "id": "2",
+      "status": "Member"
+    }
+  ],
+  "user": [
+    {
+      "id": 3,
+      "tanggal_registrasi": "",
+      "nama_lengkap": "Admin Tampan",
+      "username": "admin",
+      "password": "admin",
+      "topik_diminati": [
+        "Go Green"
+      ],
+      "enrollment_status": "Approved",
+      "role_id": 1
+    },
+    {
+      "id": 1,
+      "tanggal_registrasi": "",
+      "nama_lengkap": "Member Ga tau diri",
+      "username": "member",
+      "password": "member",
+      "topik_diminati": [
+        "Go Green"
+      ],
+      "enrollment_status": "Approved",
+      "role_id": 2
+    },
+    {
+      "id": "x_Hx9QbhGwul_zoT",
+      "tanggal_registrasi": "19/9/2021 22:3:48",
+      "nama_lengkap": "Mbak Winter",
+      "username": "winteraespa",
+      "password": "winteraespa",
+      "topik_diminati": [
+        "Go Green"
+      ],
+      "enrollment_status": "Approved",
+      "role_id": 2
+    }
+  ],
+  "project": [
+    {
+      "id": 1,
+      "kategori_project": "Pengembangan Teknologi",
+      "nama_project": "Application for Home Loans",
+      "tanggal_mulai": "09/09/2021",
+      "link_trello": "https://trello.com/c/EuJ1zjbJ/94-devlist-backend",
+      "deskripsi_project": "Sebagai penyedia layanan bank, kami ingin memberikan layanan terbaik kepada nasabah setia kami dengan menyediakan layanan pengajuan KPR dengan mudah dan cepat berdasarkan penghasilan.",
+      "invited_user_id": [
+        2,
+        3
+      ],
+      "collaborator_user_id": [
+        "Member Ga tau diri"
+      ],
+      "admin": 1
+    },
+    {
+      "id": 2,
+      "kategori_project": "Go Green",
+      "nama_project": "QMS Queue Management System",
+      "tanggal_mulai": "09/09/2021",
+      "link_trello": "https://trello.com/c/EuJ1zjbJ/94-devlist-backend",
+      "deskripsi_project": "Sebagai penyedia layanan bank, kami ingin memberikan nasabah layanan perbankan tanpa harus lama menghabiskan waktu menunggu antrian.",
+      "invited_user_id": [
+        2,
+        3
+      ],
+      "collaborator_user_id": [
+        1
+      ],
+      "admin": 1
+    },
+    {
+      "id": 3,
+      "kategori_project": "Sosial & Kemanusiaan",
+      "nama_project": "Banking Crowd Academy Platform MVP",
+      "tanggal_mulai": "09/09/2021",
+      "link_trello": "https://trello.com/c/EuJ1zjbJ/94-devlist-backend",
+      "deskripsi_project": "Sebagai penyedia layanan bank, kami ingin memberikan layanan terbaik kepada nasabah setia kami dengan menyediakan program peningkatan kompetensi melalui metode pengajaran (oleh expert) dengan silabus yang telah dirancang sesuai standard.",
+      "invited_user_id": [
+        2,
+        3
+      ],
+      "collaborator_user_id": [
+        "Member Ga tau diri"
+      ],
+      "admin": 2
+    },
+    {
+      "id": "1biGXgaZsZxc42ln",
+      "kategori_project": "Pengembangan Teknologi",
+      "nama_project": "Banking Innovation CoCreate Platform",
+      "tanggal_mulai": "2021-09-16T12:50:45.739Z",
+      "link_trello": "https://www.youtube.com/watch?v=QZng89VxKWg",
+      "deskripsi_project": "a",
+      "invited_user_id": [
+        "member"
+      ],
+      "collaborator_user_id": [],
+      "admin": "member"
+    },
+    {
+      "id": "vf2U4oWhuPwZLsKM",
+      "kategori_project": "Pengembangan Teknologi",
+      "nama_project": "Teknologi makan",
+      "tanggal_mulai": "2021-09-15T14:14:10.291Z",
+      "link_trello": "https://www.youtube.com/watch?v=QZng89VxKWg",
+      "deskripsi_project": "bc",
+      "invited_user_id": [],
+      "collaborator_user_id": [
+        "winteraespa"
+      ],
+      "admin": "member"
+    },
+    {
+      "id": "JIjQz-gd0z22TZ2d",
+      "kategori_project": "Pengembangan Teknologi",
+      "nama_project": "aaa",
+      "tanggal_mulai": "2021-09-27T04:40:11.883Z",
+      "invited_user_id": [],
+      "collaborator_user_id": [],
+      "admin": "member"
+    }
+  ],
+  "artikel": [
+    {
+      "id": "OaV4AAyFTMYb30_D",
+      "posting_date": "2021-09-20T12:35:22.893Z",
+      "kategori": "Go Green",
+      "judul": "Makanan Tanpa Gluten",
+      "isi_artikel": "Apa yang dimaksud dengan gluten-free? Diet bebas gluten atau gluten-free adalah pola makan di mana Anda hanya mengonsumsi makanan yang tidak mengandung protein gluten. Diet bebas gluten bertujuan untuk mengobati penyakit celiac dan bermanfaat untuk orang yang mengalami sensitivitas gluten non-celiac.",
+      "id_user": 1
+    },
+    {
+      "id": "BcNpXbSeFHCm_8pQ",
+      "posting_date": "2021-09-23T01:16:04.249Z",
+      "kategori": "Go Green",
+      "judul": "Tanam kasut",
+      "isi_artikel": "Isi artikel nya boleh apa aja",
+      "id_user": 1
+    },
+    {
+      "id": "kfAygmVD46085xqQ",
+      "posting_date": "2021-09-27T04:40:27.900Z",
+      "kategori": "Pengembangan Teknologi",
+      "judul": "Tanam paksa",
+      "id_user": 1
+    }
+  ]
+}
